@@ -1,13 +1,11 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
 import { AppBar, Toolbar, Button, IconButton, Typography } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import useStyles from './appbar.css';
+import useStyles from './appmenu.css';
 
 
-const ButtonAppBar = () => {
+const AppMenu = () => {
     const classes = useStyles();
-    const history = useHistory();
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -30,4 +28,4 @@ const ButtonAppBar = () => {
     );
 }
 
-export default ButtonAppBar;
+export default AppMenu;

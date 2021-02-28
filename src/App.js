@@ -1,17 +1,18 @@
 import './App.css';
-import ButtonAppBar  from './appbar/Appbar';
+import AppMenu from './appbar/AppMenu';
 import Login from './components/login&Signup/login/Login';
+import Register from './components/login&Signup/register/Register';
+import FooBarForm from './components/SampleForm';
 
 function App() {
   return (
     <>
-    <ButtonAppBar />
+      <AppMenu />
       <div className="App">
-        <p>
-          Hello User!
-      </p>
+        <p>Hello User!</p>
+        {/* <Login /> */}
+        <FooBarForm />
       </div>
-      <Login/>    
     </>
   );
 }

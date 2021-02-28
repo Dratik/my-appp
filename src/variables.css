@@ -1,0 +1,564 @@
+:root {
+  /* COLORS */
+  --white: #fff;
+  --white_smoke: #efefef;
+  --white_smoke_hue: #f8f8f8;
+  --white-bf: #c1bfbf;
+  --dark-smoke: #efefef9e;
+  --dark-smoke-e: #615e5e;
+  --black: #000000;
+  --black69: #00000069;
+  --gray: #808080;
+  --gray80: #ccc;
+  --gray70: #707070;
+  --gray-D: #606b6d;
+  --gray-90: #29383c;
+  --gray-ven: #484444;
+  --river_bed: #5c6161;
+  --swamp: #121313;
+  --oxford-blue: #29383c;
+  --faint-black: #000000d1;
+  --oslo_gray: #878c8c;
+  --black-nero: #272727;
+  --black-dark: rgba(0, 0, 0, 0.8);
+  --black-dark-09: rgba(0, 0, 0, 0.9);
+  --cloud-burst: #373f4a;
+  --primary_blue: #219ebc;
+  --primary_atlantic_blue: #023047;
+  --denim-blue: #0f72ac;
+  --secondary_sky_blue: #8ecae6;
+  --secondary_tangerine_orange: #ffb703;
+  --secondary_sunset_orange: #fb8500;
+  --secondary_snow_gray: #f5f5f5;
+  --dark_gray: #2f3330;
+  --raincloud_gray: #bdbdbd;
+  --green-pantone: #169e04;
+  --green_dark: #3bb133;
+  --traffic_green: #64dd17;
+  --traffic_red: #ff0000;
+  --traffic_yellow: #ffea00;
+  --traffic_orange: #fd6600;
+  --alert_red: #cf2929;
+
+  --alert_green: #73c61c;
+  --primary-palette-primary-black: #101b1c;
+  --primary-palette-pimary-white: #e0e0e0;
+  --primary-palette-primary-low-contra-2: #293537;
+  --primary-palette-primary-low-contrast: #d2d4d5;
+  --error-red: #f02525;
+  --success-green: #55c09e;
+  --disabled-grey-on-light-back: #cecece;
+  --disabled-grey-on-dark: #969a99;
+  --interactive-orange-interactive-orang: #f37f30;
+  --interactive-orange-interactive-ora-2: #df6715;
+  --interactive-orange-interactive-ora-3: #bd4f05;
+  --interactive-orange-interactive-ora-4: #f49859;
+  --interactive-orange-interactive-ora-5: #ffb37f;
+  --interactive-blue-interactive-blue-1: #35788d;
+  --interactive-blue-interactive-blue-2: #305e6c;
+  --interactive-blue: #3b94b0;
+  --interactive-pink-interactive-pink: #d62598;
+  --interactive-pink-interactiv-pink-1: #bd2789;
+  --interactive-pink-interactive-pink-2: #91266c;
+  --interactive-pink-interactive-pink-1: #d64ca5;
+  --traffic-traffic-green: #50a719;
+  --traffic-traffic-yellow: #e6d62c;
+  --traffic-traffic-red: #dd2020;
+  --dark-blue: #023047;
+  --grey-blue: #628393;
+  --light-sea-green: #1db9aa;
+  --ocean-blue: #1e7197;
+  --carribean-blue: #3795b0;
+  --dark-cyan: #009688;
+  --sky-blue: #8ecae6;
+  --stepper-bullte: #3cb9aa;
+  --blue-thin: #e6f9ff;
+  --fiji-green: #266279;
+  --dark-cyan-aa: #1db9aa;
+  --pelorous: #4594b996;
+  --no-data-found: #00000040;
+  --patterns-blue: #f7fafc;
+  --zircon: #dfe4e6;
+  --dodger-blue: #39c2ff;
+  --default-blue: #1db9aa;
+  --switch-yellow: #edbd2a;
+  --cinnabar: #d8412c;
+  --nero: #201f1f;
+  --dark-gray: #b2b2b2; /* Side bar & Header */
+  --suva-grey: #8d8d8d; /* Website Name*/
+  --bright-grey: #58595b;
+  --Paynes-grey: #43434a;
+  --bright-sun: #edbd2a;
+
+  /* gradient */
+  --gradient-white-gray: transparent linear-gradient(4deg, #ffffff 0%, #f0f0f0 100%, #f0f0f0 100%, #dedede 100%) 0% 0% no-repeat padding-box;
+
+  /* Font family*/
+  --font-family-poppins: 'Poppins';
+
+  /* TOP & BOTTOM */
+  --top-9px: -0.5625rem;
+  --top-72px: 4.5rem;
+  --top-70px: 4.375rem;
+  --top-64px: 4rem;
+  --top-50: 50%;
+  --top-4: 4%;
+  --top-15: 15%;
+  --top-20: 20%;
+  --top-5px: -0.3125rem;
+
+  /* SPACING */
+
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-s: 0.75rem;
+  --spacing-m: 1rem;
+  --spacing-l: 1.25rem;
+  --spacing-xl: 1.5rem;
+  --spacing-xll: 2rem;
+
+  /* FONT SIZE */
+
+  --font-size-6px: 0.375rem;
+  --font-size-8px: 0.5rem;
+  --font-size-10px: 0.625rem;
+  --font-size-12px: 0.75rem;
+  --font-size-14px: 0.875rem;
+  --font-size-15px: 0.9375rem;
+  --font-size-16px: 1rem;
+  --font-size-18px: 1.125rem;
+  --font-size-20px: 1.25rem;
+  --font-size-22px: 1.375rem;
+  --font-size-24px: 1.5rem;
+  --font-size-25px: 1.5625rem;
+  --font-size-26px: 1.625rem;
+  --font-size-28px: 1.75rem;
+  --font-size-30px: 1.875rem;
+  --font-size-32px: 2rem;
+  --font-size-34px: 2.125rem;
+  --font-size-36px: 2.25rem;
+  --font-size-38px: 2.375rem;
+  --font-size-40px: 2.5rem;
+  --font-size-42px: 2.625rem;
+
+  --font-size-160px: 10rem;
+
+  /* FONT WEIGHT */
+
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+  --font-weight-bold: bold;
+  --font-weight-bolder: bolder;
+  --font-weight-lighter: lighter;
+
+  /* LINE HEIGHT */
+  --line-height-10px: 0.625rem;
+  --line-height-11px: 0.6875rem;
+  --line-height-12px: 0.75rem;
+  --line-height-13px: 0.8125rem;
+  --line-height-14px: 0.875rem;
+  --line-height-15px: 0.9375rem;
+  --line-height-16px: 1rem;
+  --line-height-17px: 1.0625rem;
+  --line-height-18px: 1.125rem;
+  --line-height-19px: 1.1875rem;
+  --line-height-20px: 1.25rem;
+  --line-height-21px: 1.3125rem;
+  --line-height-22px: 1.375rem;
+  --line-height-23px: 1.4375rem;
+  --line-height-24px: 1.5rem;
+  --line-height-25px: 1.5625rem;
+  --line-height-26px: 1.625rem;
+  --line-height-27px: 1.6875rem;
+  --line-height-28px: 1.75rem;
+  --line-height-29px: 1.8125rem;
+  --line-height-30px: 1.875rem;
+  --line-height-31px: 1.9375rem;
+  --line-height-32px: 2rem;
+  --line-height-33px: 2.0625rem;
+  --line-height-34px: 2.125rem;
+  --line-height-35px: 2.1875rem;
+  --line-height-36px: 2.25rem;
+  --line-height-37px: 2.3125rem;
+  --line-height-38px: 2.375rem;
+  --line-height-39px: 2.4375rem;
+  --line-height-40px: 2.5rem;
+  --line-height-50px: 3.125rem;
+  --line-height-76px: 4.75rem;
+
+  /* BORDER RADIUS */
+  --border-radius-0: 0rem;
+  --border-radius-2px: 0.125rem;
+  --border-radius-4px: 0.25rem;
+  --border-radius-5px: 0.3125rem;
+  --border-radius-6px: 0.375rem;
+  --border-radius-7px: 0.4375rem;
+  --border-radius-8px: 0.5rem;
+  --border-radius-9px: 0.5625rem;
+  --border-radius-10px: 0.625rem;
+  --border-radius-11px: 0.6875rem;
+  --border-radius-12px: 0.75rem;
+  --border-radius-13px: 0.8125rem;
+  --border-radius-14px: 0.875rem;
+  --border-radius-15px: 0.9375rem;
+  --border-radius-16px: 1rem;
+  --border-radius-17px: 1.0625rem;
+  --border-radius-18px: 1.125rem;
+  --border-radius-19px: 1.1875rem;
+  --border-radius-20px: 1.25rem;
+
+  /* TEXT TRANSFORM */
+
+  --capitalize: capitalize;
+  --lowercase: lowercase;
+  --uppercase: uppercase;
+
+  /* PADDING */
+
+  --padding-0: 0rem;
+  --padding-1px: 0.0625rem;
+  --padding-2px: 0.125rem;
+  --padding-3px: 0.1875rem;
+  --padding-4px: 0.25rem;
+  --padding-5px: 0.3125rem;
+  --padding-6px: 0.375rem;
+  --padding-7px: 0.4375rem;
+  --padding-8px: 0.5rem;
+  --padding-9px: 0.5625rem;
+  --padding-10px: 0.625rem;
+  --padding-11px: 0.6875rem;
+  --padding-12px: 0.75rem;
+  --padding-13px: 0.8125rem;
+  --padding-14px: 0.875rem;
+  --padding-15px: 0.9375rem;
+  --padding-16px: 1rem;
+  --padding-17px: 1.0625rem;
+  --padding-18px: 1.125rem;
+  --padding-19px: 1.1875rem;
+  --padding-20px: 1.25rem;
+  --padding-21px: 1.3125rem;
+  --padding-22px: 1.375rem;
+  --padding-23px: 1.4375rem;
+  --padding-24px: 1.5rem;
+  --padding-25px: 1.5625rem;
+  --padding-26px: 1.625rem;
+  --padding-27px: 1.6875rem;
+  --padding-28px: 1.75rem;
+  --padding-29px: 1.8125rem;
+  --padding-30px: 1.875rem;
+  --padding-31px: 1.9375rem;
+  --padding-32px: 2rem;
+  --padding-33px: 2.0625rem;
+  --padding-34px: 2.125rem;
+  --padding-35px: 2.1875rem;
+  --padding-36px: 2.25rem;
+  --padding-37px: 2.3125rem;
+  --padding-38px: 2.375rem;
+  --padding-39px: 2.4375rem;
+  --padding-40px: 2.5rem;
+  --padding-41px: 2.5625rem;
+  --padding-42px: 2.625rem;
+  --padding-43px: 2.6875rem;
+  --padding-44px: 2.75rem;
+  --padding-45px: 2.8125rem;
+  --padding-46px: 2.875rem;
+  --padding-47px: 2.9375rem;
+  --padding-48px: 3rem;
+  --padding-49px: 3.0625rem;
+  --padding-50px: 3.125rem;
+  --padding-60px: 3.75rem;
+
+  /* IN PERCENT  */
+
+  --padding-1percent: 1%;
+  --padding-2percent: 2%;
+  --padding-3percent: 3%;
+  --padding-4percent: 4%;
+  --padding-5percent: 5%;
+  --padding-6percent: 6%;
+  --padding-7percent: 7%;
+  --padding-8percent: 8%;
+  --padding-9percent: 9%;
+  --padding-10percent: 10%;
+  --padding-11percent: 11%;
+  --padding-12percent: 12%;
+  --padding-13percent: 13%;
+  --padding-14percent: 14%;
+  --padding-15percent: 15%;
+
+  /* MARGIN */
+  --margin-auto: auto;
+  --margin-0: 0rem;
+  --margin-1px: 0.0625rem;
+  --margin-2px: 0.125rem;
+  --margin-3px: 0.1875rem;
+  --margin-4px: 0.25rem;
+  --margin-5px: 0.3125rem;
+  --margin-6px: 0.375rem;
+  --margin-7px: 0.4375rem;
+  --margin-8px: 0.5rem;
+  --margin-9px: 0.5625rem;
+  --margin-10px: 0.625rem;
+  --margin-11px: 0.6875rem;
+  --margin-12px: 0.75rem;
+  --margin-13px: 0.8125rem;
+  --margin-14px: 0.875rem;
+  --margin-15px: 0.9375rem;
+  --margin-16px: 1rem;
+  --margin-17px: 1.0625rem;
+  --margin-18px: 1.125rem;
+  --margin-19px: 1.1875rem;
+  --margin-20px: 1.25rem;
+  --margin-21px: 1.3125rem;
+  --margin-22px: 1.375rem;
+  --margin-23px: 1.4375rem;
+  --margin-24px: 1.5rem;
+  --margin-25px: 1.5625rem;
+  --margin-26px: 1.625rem;
+  --margin-27px: 1.6875rem;
+  --margin-28px: 1.75rem;
+  --margin-29px: 1.8125rem;
+  --margin-30px: 1.875rem;
+  --margin-31px: 1.9375rem;
+  --margin-32px: 2rem;
+  --margin-33px: 2.0625rem;
+  --margin-34px: 2.125rem;
+  --margin-35px: 2.1875rem;
+  --margin-36px: 2.25rem;
+  --margin-37px: 2.3125rem;
+  --margin-38px: 2.375rem;
+  --margin-39px: 2.4375rem;
+  --margin-40px: 2.5rem;
+  --margin-41px: 2.5625rem;
+  --margin-42px: 2.625rem;
+  --margin-43px: 2.6875rem;
+  --margin-44px: 2.75rem;
+  --margin-45px: 2.8125rem;
+  --margin-46px: 2.875rem;
+  --margin-47px: 2.9375rem;
+  --margin-48px: 3rem;
+  --margin-49px: 3.0625rem;
+  --margin-50px: 3.125rem;
+  --margin-63px: 3.9375rem;
+  --margin-110px: 6.875rem;
+  --margin-112px: 7rem;
+  --margin-115px: 7.1875rem;
+  --margin-120px: 7.5rem;
+
+  /* IN % */
+  --margin-5-percent: 5%;
+  --margin-10-percent: 10%;
+
+  /* WIDTH IN % */
+
+  --width-5-percent: 5%;
+  --width-10-percent: 10%;
+  --width-15-percent: 15%;
+  --width-20-percent: 20%;
+  --width-25-percent: 25%;
+  --width-30-percent: 30%;
+  --width-32-percent: 32%;
+  --width-35-percent: 35%;
+  --width-40-percent: 40%;
+  --width-45-percent: 45%;
+  --width-50-percent: 50%;
+  --width-55-percent: 55%;
+  --width-60-percent: 60%;
+  --width-65-percent: 65%;
+  --width-70-percent: 70%;
+  --width-75-percent: 75%;
+  --width-80-percent: 80%;
+  --width-85-percent: 85%;
+  --width-90-percent: 90%;
+  --width-95-percent: 95%;
+  --width-100-percent: 100%;
+
+  /* IN PX */
+  --width-20px: 1.25rem;
+  --width-30px: 1.875rem;
+  --width-35px: 2.1875rem;
+  --width-36px: 2.25rem;
+  --width-40px: 2.5rem;
+  --width-100px: 6.25rem;
+  --width-150px: 9.375rem;
+  --width-190px: 11.875rem;
+  --width-200px: 12.5rem;
+  --width-360px: 22.5rem;
+  --width-500px: 31.25rem;
+  --width-600px: 37.5rem;
+
+  /* HEIGHT */
+  --height-100vh: 100vh;
+  --height-85vh: 85vh;
+  --height-50vh: 50vh;
+  --height-36px: 2.25rem;
+  --height-35px: 2.1875rem;
+  --height-30px: 1.875rem;
+  --height-45px: 2.8125rem;
+
+  /* IN HEIGHT*/
+  --height-20px: 1.25rem;
+
+  /* MIN HEIGHT */
+  --min-height-22px: 1.375rem;
+  --min-height-56px: 3.5rem;
+  --min-height-140px: 8.75rem;
+  --min-height-100vh: 100vh;
+
+  /* LEFT */
+
+  --left-0: 0rem;
+  --left-1px: 0.0625rem;
+  --left-2px: 0.125rem;
+  --left-3px: 0.1875rem;
+  --left-4px: 0.25rem;
+  --left-5px: 0.3125rem;
+  --left-6px: 0.375rem;
+  --left-7px: 0.4375rem;
+  --left-8px: 0.5rem;
+  --left-9px: 0.5625rem;
+  --left-10px: 0.625rem;
+  --left-11px: 0.6875rem;
+  --left-12px: 0.75rem;
+  --left-13px: 0.8125rem;
+  --left-14px: 0.875rem;
+  --left-15px: 0.9375rem;
+  --left-16px: 1rem;
+  --left-17px: 1.0625rem;
+  --left-18px: 1.125rem;
+  --left-19px: 1.1875rem;
+  --left-20px: 1.25rem;
+  --left-21px: 1.3125rem;
+  --left-22px: 1.375rem;
+  --left-23px: 1.4375rem;
+  --left-24px: 1.5rem;
+  --left-25px: 1.5625rem;
+  --left-26px: 1.625rem;
+  --left-27px: 1.6875rem;
+  --left-28px: 1.75rem;
+  --left-29px: 1.8125rem;
+  --left-30px: 1.875rem;
+  --left-31px: 1.9375rem;
+  --left-32px: 2rem;
+  --left-33px: 2.0625rem;
+  --left-34px: 2.125rem;
+  --left-35px: 2.1875rem;
+  --left-36px: 2.25rem;
+  --left-37px: 2.3125rem;
+  --left-38px: 2.375rem;
+  --left-39px: 2.4375rem;
+  --left-40px: 2.5rem;
+
+  --left-60px: 3.75rem;
+
+  /* left in % */
+  --left-15-percent: 15%;
+  --left-28-percent: 28%;
+
+  /* RIGHT */
+
+  --right-0: 0rem;
+  --right-1px: 0.0625rem;
+  --right-2px: 0.125rem;
+  --right-3px: 0.1875rem;
+  --right-4px: 0.25rem;
+  --right-5px: 0.3125rem;
+  --right-6px: 0.375rem;
+  --right-7px: 0.4375rem;
+  --right-8px: 0.5rem;
+  --right-9px: 0.5625rem;
+  --right-10px: 0.625rem;
+  --right-11px: 0.6875rem;
+  --right-12px: 0.75rem;
+  --right-13px: 0.8125rem;
+  --right-14px: 0.875rem;
+  --right-15px: 0.9375rem;
+  --right-16px: 1rem;
+  --right-17px: 1.0625rem;
+  --right-18px: 1.125rem;
+  --right-19px: 1.1875rem;
+  --right-20px: 1.25rem;
+  --right-21px: 1.3125rem;
+  --right-22px: 1.375rem;
+  --right-23px: 1.4375rem;
+  --right-24px: 1.5rem;
+  --right-25px: 1.5625rem;
+  --right-26px: 1.625rem;
+  --right-27px: 1.6875rem;
+  --right-28px: 1.75rem;
+  --right-29px: 1.8125rem;
+  --right-30px: 1.875rem;
+  --right-31px: 1.9375rem;
+  --right-32px: 2rem;
+  --right-33px: 2.0625rem;
+  --right-34px: 2.125rem;
+  --right-35px: 2.1875rem;
+  --right-36px: 2.25rem;
+  --right-37px: 2.3125rem;
+  --right-38px: 2.375rem;
+  --right-39px: 2.4375rem;
+  --right-40px: 2.5rem;
+  --right-41px: 2.5625rem;
+
+  /* POSITION */
+
+  --position-absolute: absolute;
+  --position-fixed: fixed;
+  --position-relative: relative;
+  --position-static: static;
+  --position-sticky: sticky;
+  --position-unset: unset;
+
+  /* DISPLAY */
+
+  --display-block: block;
+  --display-contents: contents;
+  --display-flex: flex;
+  --display-grid: grid;
+  --display-inline: inline;
+  --display-inline-block: inline-block;
+  --display-none: none;
+  --display-unset: unset;
+  --display-flow: flow-root;
+
+  /* BACKGROUND */
+
+  --background-size-cover: cover;
+
+  /* FLOAT */
+
+  --float-left: left;
+  --float-right: right;
+  --float-none: none;
+  --float-unset: unset;
+
+  /* TEXT ALIGNMENT */
+
+  --text-center: center;
+  --text-left: left;
+  --text-right: right;
+
+  /* Border */
+  --border-1px: 0.0625rem solid;
+  --border-none: none;
+
+  /* Border Color */
+  --border-color-red: var(--alert_red);
+
+  /* Error Display Border*/
+  --payment-error-border: var(--border-1px) var(--border-color-red);
+  /* Max Height*/
+  --max-height-450: 28.125rem;
+
+  /* Text shadow */
+  --payment-text-shadow: var(--pelorous) 0.0625rem 0px 0.0625rem;
+
+  --favorite_icon-red: var(--traffic_red);
+}
