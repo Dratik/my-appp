@@ -10,8 +10,8 @@ function App() {
       <AppMenu />
       <div className="App">
         <p>Hello User!</p>
-        {/* <Login /> */}
-        <FooBarForm />
+        <Login />
+        {/* <Register /> */}
       </div>
     </>
   );
